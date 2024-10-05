@@ -25,17 +25,17 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254102074064, 254729553638 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \"254735742574,\" Ex: 254102074064, 254729553638 ",
       "required": true
     },
     "NOT_OWNER_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
+      "description": "THIS IS NOT A HOTEL MENU.😅",
       "required": true
     },
     
     
     "BOT_ADMIN_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
+      "description": "I must be an admin 🥲",
       "required": true
     },
     "ADMIN_MSG": {
@@ -56,7 +56,7 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input true if you want bot to automatically read status update",
