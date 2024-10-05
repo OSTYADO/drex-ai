@@ -29,7 +29,7 @@ const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/
  const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 
-    const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
+    const autoviewstatus = process.env.AUTOVIEW_STATUS || 'FALSE';
 const welcome = process.env.WELCOME || 'TRUE';
 
 const color = (text, color) => {
